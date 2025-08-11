@@ -1,0 +1,126 @@
+/* Styles pour éviter les problèmes d'hydratation - Forgot password page */
+.particle-forgot {
+  position: absolute;
+  border-radius: 50%;
+  animation: float-forgot 6s ease-in-out infinite;
+}
+
+.particle-forgot-1 {
+  width: 4px;
+  height: 4px;
+  background: #00D4FF;
+  top: 20%;
+  left: 15%;
+  animation-delay: 0s;
+}
+
+.particle-forgot-2 {
+  width: 8px;
+  height: 8px;
+  background: #3B82F6;
+  top: 40%;
+  right: 20%;
+  animation-delay: 1s;
+}
+
+.particle-forgot-3 {
+  width: 6px;
+  height: 6px;
+  background: #6366F1;
+  bottom: 40%;
+  left: 25%;
+  animation-delay: 2s;
+}
+
+.particle-forgot-4 {
+  width: 2px;
+  height: 2px;
+  background: white;
+  top: 60%;
+  left: 35%;
+  animation-delay: 0.5s;
+}
+
+.particle-forgot-5 {
+  width: 3px;
+  height: 3px;
+  background: #00D4FF;
+  top: 30%;
+  right: 25%;
+  animation-delay: 1.5s;
+}
+
+.particle-forgot-6 {
+  width: 5px;
+  height: 5px;
+  background: #3B82F6;
+  bottom: 30%;
+  right: 15%;
+  animation-delay: 2.5s;
+}
+
+.particle-forgot-7 {
+  width: 3px;
+  height: 3px;
+  background: #6366F1;
+  top: 70%;
+  left: 20%;
+  animation-delay: 3s;
+}
+
+.particle-forgot-8 {
+  width: 4px;
+  height: 4px;
+  background: white;
+  top: 10%;
+  left: 40%;
+  animation-delay: 1.2s;
+}
+
+.particle-forgot-9 {
+  width: 2px;
+  height: 2px;
+  background: #00D4FF;
+  bottom: 20%;
+  right: 30%;
+  animation-delay: 2.2s;
+}
+
+.particle-forgot-10 {
+  width: 6px;
+  height: 6px;
+  background: #3B82F6;
+  top: 80%;
+  right: 20%;
+  animation-delay: 0.8s;
+}
+
+@keyframes float-forgot {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(-20px) scale(1.1);
+    opacity: 1;
+  }
+}
+
+.digital-grid-forgot {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(0, 212, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 212, 255, 0.1) 1px, transparent 1px);
+  background-size: 55px 55px;
+  animation: grid-pulse-forgot 4s ease-in-out infinite;
+}
+
+@keyframes grid-pulse-forgot {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.15;
+  }
+}

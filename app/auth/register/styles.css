@@ -1,0 +1,126 @@
+/* Styles pour éviter les problèmes d'hydratation - Register page */
+.particle-register {
+  position: absolute;
+  border-radius: 50%;
+  animation: float-register 6s ease-in-out infinite;
+}
+
+.particle-register-1 {
+  width: 4px;
+  height: 4px;
+  background: #A855F7;
+  top: 15%;
+  left: 12%;
+  animation-delay: 0s;
+}
+
+.particle-register-2 {
+  width: 8px;
+  height: 8px;
+  background: #EC4899;
+  top: 35%;
+  right: 18%;
+  animation-delay: 1s;
+}
+
+.particle-register-3 {
+  width: 6px;
+  height: 6px;
+  background: #F43F5E;
+  bottom: 35%;
+  left: 22%;
+  animation-delay: 2s;
+}
+
+.particle-register-4 {
+  width: 2px;
+  height: 2px;
+  background: white;
+  top: 55%;
+  left: 28%;
+  animation-delay: 0.5s;
+}
+
+.particle-register-5 {
+  width: 3px;
+  height: 3px;
+  background: #A855F7;
+  top: 25%;
+  right: 35%;
+  animation-delay: 1.5s;
+}
+
+.particle-register-6 {
+  width: 5px;
+  height: 5px;
+  background: #EC4899;
+  bottom: 25%;
+  right: 12%;
+  animation-delay: 2.5s;
+}
+
+.particle-register-7 {
+  width: 3px;
+  height: 3px;
+  background: #F43F5E;
+  top: 75%;
+  left: 18%;
+  animation-delay: 3s;
+}
+
+.particle-register-8 {
+  width: 4px;
+  height: 4px;
+  background: white;
+  top: 8%;
+  left: 45%;
+  animation-delay: 1.2s;
+}
+
+.particle-register-9 {
+  width: 2px;
+  height: 2px;
+  background: #A855F7;
+  bottom: 15%;
+  right: 38%;
+  animation-delay: 2.2s;
+}
+
+.particle-register-10 {
+  width: 6px;
+  height: 6px;
+  background: #EC4899;
+  top: 85%;
+  right: 22%;
+  animation-delay: 0.8s;
+}
+
+@keyframes float-register {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-25px) scale(1.1);
+    opacity: 1;
+  }
+}
+
+.digital-grid-register {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(236, 72, 153, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(236, 72, 153, 0.1) 1px, transparent 1px);
+  background-size: 60px 60px;
+  animation: grid-pulse-register 4s ease-in-out infinite;
+}
+
+@keyframes grid-pulse-register {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.15;
+  }
+}
